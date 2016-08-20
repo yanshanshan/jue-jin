@@ -2,10 +2,10 @@ header {
     width: 100%;
     background-color: white;
     height: 65px;
+    position:fixed;
+    border-bottom: 1px solid #f1f1f1;
+    z-index:1000;
 }
-
-
-
 
 
 .hd-container li {
@@ -50,7 +50,15 @@ header {
 
 .hd-right button {
     background-color: transparent;
-    border: none
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 0;
+
+}
+.hd-right-text{margin-left: 40px;}
+.hd-right button:hover{
+    color: #0371df;
 }
 
 .tag-input-block {

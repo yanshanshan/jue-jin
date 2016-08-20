@@ -3,8 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel='stylesheet' type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="body-main.css">
+    <link rel="stylesheet" type="text/css" href="nav-left.css">
+    <link rel="stylesheet" type="text/css" href="content.css">
 </head>
 <body>
+<!--－－－－－－－头部开始－－－－－－－-->
+<header>
+    <div class="container clearfix hd-container">
+        <ul class='hd-left '>
+            <li><img src='http://gold.xitu.io/images/logo-header.svg'></li>
+            <li>
+                <span>高质量的技术社区</span>
+            </li>
+        </ul>
+        <ul class="hd-right">
+            <li>
+                <div class="tag-input-block">
+                    <i></i>
+                    <input type="input" placeholder="输入关键字搜索">
+                </div>
+            </li>
+            <li>
+                <button>注册 ·</button>
+                <button>登录</button>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--－－－－－－－头部结束－－－－－－－-->
 
+<!--－－－－－－－主要的内容－－－－－－－-->
+<div id='main'>
+    <div class="container clearfix ">
+        11111111111111111111111111111111
+        @@include('components/left-nav.html')
+        <!--－－－－－－－中间内容开始－－－－－－－-->
+        <div class="content">
+            <div class="content-box clearfix">
+                @@include("components/main-header.html")
+                @@include("components/main-content.html")
+                @@include("components/main-register.html")
+
+            </div>
+
+            @@include("components/main-android.html")
+
+        </div>
+
+    </div>
+
+
+</div>
 </body>
 </html>
