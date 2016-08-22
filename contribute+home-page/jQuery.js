@@ -17,5 +17,13 @@
 })();
 
 ;(function(){
+var $cTag = $('.c-tag')
+    var $cTagIndex
+    $cTag.click(function(){
+        $cTagIndex = $cTag.index(this)
+        $cTag.eq($cTagIndex).addClass('c-tag-style').siblings().removeClass('c-tag-style')
+
+    })
+
 
 })();

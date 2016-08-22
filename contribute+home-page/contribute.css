@@ -2,93 +2,8 @@ body {
     background-color: #fff;
 }
 
-.gold-header {
-    width: 100%;
-    background-color: #fff;
-    height: 64px;
-    position: fixed;
-    z-index: 1000;
-    border-bottom: 1px solid #f1f1f1;
-    color: #909090;
-    border-bottom: 1px solid #f1f1f1;
-}
 
-.nav-action {
-    margin: auto 0.8em;
-    cursor: pointer;
-    line-height: 64px;
-    display: inline-block;
-
-}
-
-.container > ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.container li {
-    line-height: 64px;
-}
-
-.gold-right-img {
-    vertical-align: middle;
-}
-
-.nav-img1, .nav-img2, .nav-img3 {
-    margin-top: 23px;
-    margin-left: 30px
-}
-
-.nav-img1 {
-    background: url("1.png");
-    width: 18px;
-    height: 16px;
-    background-repeat: no-repeat;
-}
-
-.nav-img1:hover {
-    background: url("11.png");
-    width: 18px;
-    height: 16px;
-    background-repeat: no-repeat;
-}
-
-.nav-img2 {
-    background: url("2.png");
-    width: 18px;
-    height: 16px;
-    background-repeat: no-repeat;
-}
-
-.nav-img2:hover {
-    background: url("22.png");
-    width: 18px;
-    height: 16px;
-    background-repeat: no-repeat;
-}
-
-.nav-img3 {
-    background: url("3.png");
-    width: 18px;
-    height: 22px;
-    background-repeat: no-repeat;
-}
-
-.nav-img3:hover {
-    background: url("33.png");
-    width: 18px;
-    height: 22px;
-    background-repeat: no-repeat;
-}
-
-.dropdown {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin-top: 16px;
-    margin-left: 40px
-}
+.container{width: 960px;}
 
 .view {
     background-color: #fff;
@@ -162,8 +77,11 @@ label {
 .c-tag:hover {
     color: #007fff;
     border: 1px solid rgba(0, 127, 255, .15);
-    background-color: rgba(0, 127, 255, .05);;
+    background-color: rgba(0, 127, 255, .05);
 }
+.c-tag-style{color: #007fff;
+    border: 1px solid rgba(0, 127, 255, .15);
+    background-color: rgba(0, 127, 255, .05);}
 
 .input-optional {
     width: 5em;
@@ -185,6 +103,7 @@ label {
     border-radius: 2px;
     padding: 0.5em 1em;
     font-size: 1em;
+    outline:none;
 }
 
 .flex-right {
